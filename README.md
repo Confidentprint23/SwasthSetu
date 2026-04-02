@@ -114,17 +114,6 @@ telemedicine-platform/
 - Doctors
 - Consultations
 - HealthRecords
-- Prescriptions
 - Medicines
 - Pharmacies
-- SymptomAssessments
 
-## Deployment
-
-**Frontend:** Vercel / Netlify  
-**Backend:** Heroku / Railway  
-**Database:** MongoDB Atlas
-
-## License
-
-MIT License
