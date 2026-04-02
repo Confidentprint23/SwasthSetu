@@ -1,0 +1,74 @@
+FINAL DIRECTORY STRUCTURE:
+
+SwasthSetu/
+├── backend/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── consultationController.js
+│   │   ├── doctorController.js
+│   │   ├── healthRecordsController.js
+│   │   ├── pharmacyController.js
+│   │   ├── prescriptionController.js
+│   │   ├── symptomCheckerController.js
+│   │   └── userController.js
+│   ├── models/
+│   │   ├── Consultation.js
+│   │   ├── Doctor.js
+│   │   ├── HealthRecord.js
+│   │   ├── Medicine.js
+│   │   ├── Pharmacy.js
+│   │   ├── Prescription.js
+│   │   ├── SymptomAssessment.js
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── consultations.js
+│   │   ├── doctors.js
+│   │   ├── healthRecords.js
+│   │   ├── pharmacies.js
+│   │   ├── prescriptions.js
+│   │   ├── symptomChecker.js
+│   │   └── users.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── .env.example
+│   ├── package.json
+│   └── server.js
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Auth/
+│   │   │   │   ├── Login.jsx
+│   │   │   │   └── Register.jsx
+│   │   │   ├── Doctor/
+│   │   │   │   └── DoctorDashboard.jsx
+│   │   │   ├── Layout/
+│   │   │   │   ├── Footer.jsx
+│   │   │   │   └── Navbar.jsx
+│   │   │   ├── Patient/
+│   │   │   │   ├── BookConsultation.jsx
+│   │   │   │   ├── ConsultationHistory.jsx
+│   │   │   │   ├── Dashboard.jsx
+│   │   │   │   ├── DoctorList.jsx
+│   │   │   │   └── HealthRecords.jsx
+│   │   │   ├── Pharmacy/
+│   │   │   │   └── PharmacyLocator.jsx
+│   │   │   └── SymptomChecker/
+│   │   │       └── SymptomForm.jsx
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   └── Profile.jsx
+│   │   ├── api/
+│   │   │   └── axiosConfig.js
+│   │   ├── styles/
+│   │   │   └── global.css
+│   │   ├── App.jsx
+│   │   └── index.js
+│   ├── .env.example
+│   └── package.json
+│
+├── README.md
+└── PROJECT_STRUCTURE.txt
