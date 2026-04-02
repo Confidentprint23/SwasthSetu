@@ -2,6 +2,10 @@ FINAL DIRECTORY STRUCTURE:
 
 SwasthSetu/
 ├── backend/
+|    |── config/
+|    |   ├── db.js
+|    |── constants/
+|    |   ├── messages.js
 │   ├── controllers/
 │   │   ├── authController.js
 │   │   ├── consultationController.js
@@ -11,6 +15,10 @@ SwasthSetu/
 │   │   ├── prescriptionController.js
 │   │   ├── symptomCheckerController.js
 │   │   └── userController.js
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   ├── errorHandler.js
+│   │   ├── validation.js
 │   ├── models/
 │   │   ├── Consultation.js
 │   │   ├── Doctor.js
@@ -29,10 +37,13 @@ SwasthSetu/
 │   │   ├── prescriptions.js
 │   │   ├── symptomChecker.js
 │   │   └── users.js
-│   ├── middleware/
-│   │   └── auth.js
-│   ├── .env.example
+│   ├── tests/
+│   │   ├── auth.test.js
+│   ├── utils/
+│   │   ├── emailService.js
+│   ├── .env
 │   ├── package.json
+│   ├── seedData.js
 │   └── server.js
 │
 ├── frontend/
@@ -58,16 +69,35 @@ SwasthSetu/
 │   │   │   │   └── PharmacyLocator.jsx
 │   │   │   └── SymptomChecker/
 │   │   │       └── SymptomForm.jsx
+│   │   │   ├── LoadingSpinner.jsx
+│   │   │   ├── NotificationAlert.jsx
+│   │   │   ├── ProtectedRoute.jsx
+│   │   ├── config/
+│   │   │   ├── constants.js
+│   │   │   └── theme.js
+│   │   ├── context/
+│   │   │   ├── AuthContext.jsx
+│   │   │   └── ThemeContext.jsx
+│   │   ├── hooks/
+│   │   │   ├── useAuth.js
+│   │   │   └── useFetch.js
 │   │   ├── pages/
-│   │   │   ├── Home.jsx
+│   │   │   ├── About.jsx
+│   │   │   └── Contact.jsx
+│   │   │   └── ForgotPassword.jsx
+│   │   │   └── Home.jsx
+│   │   │   └── NotFound.jsx
 │   │   │   └── Profile.jsx
 │   │   ├── api/
 │   │   │   └── axiosConfig.js
+│   │   ├── utils/
+│   │   │   └── helpers.js
 │   │   ├── styles/
 │   │   │   └── global.css
 │   │   ├── App.jsx
+│   │   ├── App.test.jsx
 │   │   └── index.js
-│   ├── .env.example
+│   ├── .env
 │   └── package.json
 │
 ├── README.md
