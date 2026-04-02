@@ -31,18 +31,27 @@ A comprehensive telemedicine platform providing healthcare services for rural co
 ```
 telemedicine-platform/
 ├── backend/
+│   ├── config/
+│   ├── constants/
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
 │   ├── middleware/
+│   ├── tests/
+│   ├── utils/
 │   ├── server.js
+│   ├── seedData.js
 │   └── package.json
 └── frontend/
     ├── src/
     │   ├── components/
+    │   ├── config/
+    │   ├── context/
+    │   ├── hooks/
     │   ├── pages/
     │   ├── api/
     │   ├── styles/
+    │   ├── utils/
     │   ├── App.jsx
     │   └── index.js
     └── package.json
